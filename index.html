@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Komponenty Bootstrap</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- navigation -->
+	<nav class="navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">My Site</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">About me</a></li>
+				<li><a href="#">Portfolio</a>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input type="text" placeholder="Search">
+				</div>
+				<button type="submit" class="btn btn-sm btn-info">Search</button>
+			</form>
+		</div>
+	</nav>
+
+	<!-- hero -->
+	<section class="jumbotron text-center">
+		<div class="container">
+			<h1>Hello world</h1>
+			<h2><small>Lorem ipsum</small></h2>
+			<button type="button" class="btn btn-lg btn-primary" name="">More</button>
+		</div>
+	</section>
+
+	<!-- gallery one -->
+	<section class="gallery">
+		<div class="container">
+			<div class="row">
+				<h2 class="text-center">Photo</h2>
+				<img class="img-responsive col-xs-12 col-sm-6" src="https://images.unsplash.com/photo-1439158741799-12ded9a3ba30?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&h=300&fit=crop&s=7d87276e917a63991a962f01a651413d">
+				<img class="img-responsive col-xs-12 col-sm-6" src="https://images.unsplash.com/photo-1437326920854-54e923d4a0bc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&h=300&fit=crop&s=fcaf1587ecaca5ef28f525bc7b63fba9">
+				<img class="img-responsive col-xs-12 col-sm-6" src="https://images.unsplash.com/photo-1445437325452-e8e928879cc3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&h=300&fit=crop&s=ab222959073950cb4eced24e42b0c198">
+				<img class="img-responsive col-xs-12 col-sm-6" src="https://images.unsplash.com/photo-1455381528837-c6d513d76c99?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&h=300&fit=crop&s=936ebd43001cf1e0ba2268d8ffc9512b">
+			</div>	
+		</div>
+	</section>
+
+	<!-- table -->
+	<section class="tabels">
+		<table class="table table-bordered table-hover">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Profession</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>30</td>
+					<td>Driver</td>
+				</tr>
+				<tr>
+					<td>Bob</td>
+					<td>28</td>
+					<td>Programmer</td>
+				</tr>
+				<tr>
+					<td>Michael</td>
+					<td>26</td>
+					<td>Manager</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<!-- gallery two thumbnail -->
+	<section class="gallery-two">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6"> 
+					<img class="img-responsive img-thumbnail" src="https://images.unsplash.com/photo-1440428198541-19d2a539f090?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&h=300&fit=crop&s=2ae5dd6c3fe9a39ffefad0e07dbdbe86">
+				</div>
+					<div class="col-md-3 col-sm-6">
+					<img class="img-responsive img-thumbnail" src="https://images.unsplash.com/photo-1477314099024-9f209cdc507a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&h=300&fit=crop&s=fd5639cefd7e30ab4f658827aa350419">
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<img class="img-responsive img-thumbnail" src="https://images.unsplash.com/photo-1429741402290-33b8b81bbaab?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&h=300&fit=crop&s=2c77b446d6406da36036a7027140cf7e">
+				</div>
+				<div class="col-md-3 col-sm-6">
+				<img class="img-responsive img-thumbnail" src="https://images.unsplash.com/37/U6MeLwXUQtWwZ2iSA5qr_photo.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=300&h=300&fit=crop&s=98391882bd979f7c5ba673f0f63fa144">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- media object -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="http://placehold.it/100x100" alt="#">
+						</a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">Lorem ipsum</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<!-- list -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<ul class="list-group col-sm-offset-4 col-sm-4 col-sm-offset-4">
+	 				<li class="list-group-item">
+	   					<span class="badge">14</span>
+	   					 Cras justo odio
+	  				</li>
+					<li class="list-group-item">
+	   					<span class="badge">20</span>
+	   					 Dapibus ac facilisis w
+	  				</li>
+	  				<li class="list-group-item">
+	   					<span class="badge">7</span>
+	   					 Morbi leo Risus
+	  				</li>
+				</ul>
+			</div>	
+		</div>
+	</section>
+
+	<!-- contacts -->
+	<section class="container">
+		<form class="row">
+			<div class="form-group col-sm-offset-3 col-sm-6 col-sm-offset-3">
+				<label class="col-sm-2 control-label" for="name" >Name</label>
+				<input class="form-control" type="text" name="name" placeholder="Bob">
+			</div>
+			<div class="form-group col-sm-offset-3 col-sm-6 col-sm-offset-3">
+				<label class="col-sm-2 control-labe" for="addres">Email</label>
+				<input class="form-control" type="email" name="addres" placeholder="bob@io.com">
+			</div>
+			<div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
+				<textarea class="form-control" rows="5" cols="30" placeholder="Your message..." name="message"></textarea>
+			</div>
+			<div>
+				<button class="btn btn-lg btn-success col-sm-offset-4 col-sm-4 col-sm-offset-4 col-xs-offset-4 col-xs-4 col-xs-offset-4 " type="submit">Send</button>
+			</div>
+		</form>
+	</section>
+</body>
+</html>
