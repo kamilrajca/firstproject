@@ -1,0 +1,21 @@
+section {
+  margin-top: 30px; }
+
+img {
+  margin-top: 30px; }
+
+.container {
+  padding: 20px; }
+
+.container .media .media-left img {
+  margin-top: 0; }
+
+.btn-group-lg > .btn, .btn-lg {
+  margin-top: 10px; }
+
+@media (max-width: 1000px) {
+  .img-thumbnail {
+    display: block;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=main.css.map */
